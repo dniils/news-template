@@ -1,5 +1,6 @@
 :root {
   --accent: #ea3939;
+  --hover: #d23838;
 }
 
 html {
@@ -62,4 +63,14 @@ img {
 .section_news .img {
   max-width: 300px;
   object-fit: cover;
+}
+
+.btn.btn-primary {
+  border: none;
+  background-color: var(--accent);
+  transition: 0.2s ease-in;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--hover);
 }
